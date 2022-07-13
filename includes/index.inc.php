@@ -31,4 +31,9 @@ class ParentClass
 	{
 		return $this->firstName;
 	}
+
+	public static function setGeneralSubject($newGS)
+	{
+		self::$generalSubject = $newGS;
+	}
 }

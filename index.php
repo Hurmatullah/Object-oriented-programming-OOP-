@@ -22,8 +22,9 @@ include "./includes/index.inc.php";
 
 	// echo $object->firstName . " " . $object->lastName . " " . $object->subject . "<br>";
 
-	$new = ParentClass::$generalSubject;
-	echo $new;
+	echo ParentClass::$generalSubject . "<br>";
+	ParentClass::setGeneralSubject("Chemistry");
+	echo ParentClass::$generalSubject;
 
 	?>
 
