@@ -1,9 +1,7 @@
 <?php
 
-
 class Employee
 {
-
     public $name;
     public $lastName;
     public $salary;

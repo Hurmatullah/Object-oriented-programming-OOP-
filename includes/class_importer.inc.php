@@ -1,8 +1,8 @@
 <?php
 
-spl_autoload_register('autoLoad');
+spl_autoload_register('myAutoLoad');
 
-function autoLoad($className)
+function myAutoLoad($className)
 {
     $path = "classes/";
     $extension = ".class.php";
