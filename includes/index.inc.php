@@ -1,57 +1,17 @@
 <?php
 
 // Private access it means that you can only access it inside of class not anywhere else
- // Protected access modifier is that you can only access it in inside of class or another class that extends that class as well.
+// Protected access modifier is that you can only access it in inside of class or another class that extends that class as well.
 
 
-class ParentClass {
+class ParentClass
+{
+	public $firstName;
+	public $lastName;
+	public $subject;
 
-	protected $firstName = "Jhon";
-	private $lastName = "Doe";
-	private $subject = "Mathmatic";
-
-
-}
-
-
-class childClass extends ParentClass{
-
-	public function owner(){
-
-	   $info = $this->firstName;
-
-		return $info;
-
+	public function setName($firstName)
+	{
+		$this->firstName = $firstName;
 	}
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>
-
-
-
-
-
-
-
-
-
