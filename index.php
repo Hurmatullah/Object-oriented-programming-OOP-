@@ -1,3 +1,8 @@
+<?php
+
+include "includes/class_importer.inc.php";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
