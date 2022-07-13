@@ -33,12 +33,12 @@ function myAutoLoad($className)
 
 	<?php
 
-	$object = new Employee("Hurmatullah", "Karimi", "Computer Engineering");
+	$object = new Base("Hurmatullah", "Karimi", "Computer Engineering");
 
 	// echo $object->firstName . " " . $object->lastName . " " . $object->subject . "<br>";
 
-	$hey = Employee::setNewClothes("Chemistry");
-	echo Employee::$clothes;
+	$hey = Base::setSubject("Physic");
+	echo Base::$newSubject;
 
 	?>
 
