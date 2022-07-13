@@ -22,4 +22,9 @@ class ParentClass
 	{
 		$this->firstName = $firstName;
 	}
+
+	public function getName()
+	{
+		return $this->firstName;
+	}
 }

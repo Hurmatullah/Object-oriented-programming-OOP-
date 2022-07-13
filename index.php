@@ -20,7 +20,10 @@ include "./includes/index.inc.php";
 
 	$object = new ParentClass("Hurmatullah", "Karimi", "Computer Engineering");
 
-	echo $object->firstName . " " . $object->lastName . " " . $object->subject;
+	echo $object->firstName;
+
+	// $get = $object->getName();
+	// echo $get;
 
 	?>
 
