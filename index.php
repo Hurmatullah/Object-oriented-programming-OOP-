@@ -1,25 +1,31 @@
 <?php
 
-include "includes/index.inc.php";
+ include "./includes/index.inc.php";
 
 ?>
 
-<html>
-<head></head>
-<body>
-
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PHP oop</title>
+ </head>
+ <body>
 
 	<?php
 
-	$object = new childClass();
+		$object = new childClass();
+		
+		$hey = $object->owner();
 
-	 echo $object->owner();
+		echo $hey;
+
 
 
 	?>
 
-
-
-</body>
-</html>
-
+	
+ </body>
+ </html>
