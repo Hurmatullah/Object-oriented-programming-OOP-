@@ -1,9 +1,3 @@
-<?php
-
-include "./includes/index.inc.php";
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 

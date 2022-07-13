@@ -4,7 +4,7 @@
 // Protected access modifier is that you can only access it in inside of class or another class that extends that class as well.
 
 
-class ParentClass
+class Mainclass
 {
 	public $firstName;
 	public $lastName;
