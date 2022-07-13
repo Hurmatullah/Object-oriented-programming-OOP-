@@ -10,6 +10,14 @@ class ParentClass
 	public $lastName;
 	public $subject;
 
+
+	public function __construct($firstName, $lastName, $subject)
+	{
+		$this->firstName = $firstName;
+		$this->lastName = $lastName;
+		$this->subject = $subject;
+	}
+
 	public function setName($firstName)
 	{
 		$this->firstName = $firstName;

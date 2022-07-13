@@ -18,11 +18,9 @@ include "./includes/index.inc.php";
 
 	<?php
 
-	$object = new ParentClass();
+	$object = new ParentClass("Hurmatullah", "Karimi", "Computer Engineering");
 
-	$hey = $object->setName("Hurmat");
-
-	echo $object->firstName;
+	echo $object->firstName . " " . $object->lastName . " " . $object->subject;
 
 	?>
 
