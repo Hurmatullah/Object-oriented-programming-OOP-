@@ -12,7 +12,7 @@ class ParentClass
 
 	// Static properties it means that when we wanna add some static values for a property inside of class;
 
-	public static $generalSubject = "Mathmatic";
+	public static $newGeneralSubject = "Mathmatic1";
 
 
 	public function __construct($firstName, $lastName, $subject)
@@ -32,8 +32,8 @@ class ParentClass
 		return $this->firstName;
 	}
 
-	public static function setGeneralSubject($newGS)
+	public static function setNewValue($newValue)
 	{
-		self::$generalSubject = $newGS;
+		self::$newGeneralSubject = $newValue;
 	}
 }
