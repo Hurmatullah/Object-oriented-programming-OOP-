@@ -10,8 +10,8 @@ class ParentClass
 	public $lastName;
 	public $subject;
 
-	public function setName($firstName)
+	public function setName()
 	{
-		$this->firstName = $firstName;
+		$this->firstName = "Hey this is me";
 	}
 }

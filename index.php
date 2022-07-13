@@ -20,7 +20,7 @@ include "./includes/index.inc.php";
 
 	$object = new ParentClass();
 
-	$hey = $object->setName("Jhon");
+	$hey = $object->setName("Hurmat");
 
 	echo $object->firstName;
 
