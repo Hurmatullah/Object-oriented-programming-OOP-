@@ -20,9 +20,10 @@ include "./includes/index.inc.php";
 
 	$object = new ParentClass("Hurmatullah", "Karimi", "Computer Engineering");
 
-	echo $object->firstName . " " . $object->lastName . " " . $object->subject . "<br>";
+	// echo $object->firstName . " " . $object->lastName . " " . $object->subject . "<br>";
 
-	echo $object->getName();
+	$new = ParentClass::$generalSubject;
+	echo $new;
 
 	?>
 

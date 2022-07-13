@@ -10,6 +10,10 @@ class ParentClass
 	public $lastName;
 	public $subject;
 
+	// Static properties it means that when we wanna add some static values for a property inside of class;
+
+	public static $generalSubject = "Mathmatic";
+
 
 	public function __construct($firstName, $lastName, $subject)
 	{
