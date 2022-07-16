@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 include "includes/class_importer.inc.php";
 
 ?>
@@ -21,8 +22,13 @@ include "includes/class_importer.inc.php";
 
 	// echo $object->firstName . " " . $object->lastName . " " . $object->subject . "<br>";
 
-	$hey = Base::setSubject("Physic");
-	echo Base::$newSubject;
+	try {
+		$hey = Base::setSubject(2);
+		echo Base::$newSubject;
+	} catch (TypeError $e) {
+
+		echo "Bro you made mistake!" . $e->getMessage();
+	}
 
 	?>
 

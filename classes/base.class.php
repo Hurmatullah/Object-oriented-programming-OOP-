@@ -25,7 +25,7 @@ class Base
         return $this->name;
     }
 
-    public static function setSubject($newValue)
+    public static function setSubject(string $newValue)
     {
         self::$newSubject = $newValue;
     }
