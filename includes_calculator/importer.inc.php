@@ -3,12 +3,18 @@
 spl_autoload_register('myAutoLoader');
 
 
-function myAutoLoder($name)
+function myAutoLoader($name)
 {
-    $path = "class_calculator/";
-    $extension = ".inc.php";
+    $url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+    if (strpos($url, 'includes_calculator') !== false) {
+        $path = "../class_calculator/";
+    } else {
+        $path = 'class_calculator';
+    }
+
+    $extension = ".class.php";
     $full_path = $path . $name . $extension;
 
-
-    return $full_path;
+    require_once $full_path;
 }

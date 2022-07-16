@@ -6,7 +6,7 @@
 
     <h2>Simple calculator</h2>
 
-    <form action="" method="post">
+    <form action="includes_calculator/calc_controller.inc.php" method="post">
 
         <label for="number1">Number 1</label>
         <input type="number" name="num1" /><br>
