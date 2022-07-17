@@ -20,7 +20,7 @@ include "includes/class_importer.inc.php";
 
 	$object = new Base("Hurmatullah", "Karimi", "Computer Engineering");
 
-	echo $object->firstName . " " . $object->lastName . " " . $object->subject . "<br>";
+	// echo $object->firstName . " " . $object->lastName . " " . $object->subject . "<br>";
 
 	try {
 		$hey = Base::setSubject(2);
