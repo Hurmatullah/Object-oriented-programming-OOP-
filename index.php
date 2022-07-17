@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-include "includes/class_importer.inc.php";
+include "includes_main/class_importer.inc.php";
 
 ?>
 <!DOCTYPE html>
