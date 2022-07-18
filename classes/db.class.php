@@ -13,7 +13,7 @@ class DB
     {
 
         $dsn = "mysql:host" . $this->host . ";dbName" . $this->dbName;
-        $connection = new PDO($dsn, $this->user, $this->password);
+        $connection = new PDO($dsn, $this->user, $this->pwd);
         $connection->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
         return $connection;
     }
