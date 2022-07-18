@@ -17,7 +17,14 @@ include "includes/class_importer.inc.php";
 
 <body>
 
+    <?php
 
+    $object = new UserView();
+    $object->showUser();
+
+
+
+    ?>
 
 </body>
 
