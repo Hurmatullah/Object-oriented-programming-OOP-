@@ -6,7 +6,7 @@ class User extends DB
     protected function getUser()
     {
 
-        $sql = "Select * from users";
+        $sql = "Select * from mvc.users";
         $stmd = $this->connect()->prepare($sql);
         $stmd->execute();
 
