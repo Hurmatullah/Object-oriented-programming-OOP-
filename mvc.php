@@ -22,6 +22,9 @@ include "includes/class_importer.inc.php";
     $object = new UserView();
     $object->showUser();
 
+    $insertObject = new UserController();
+    $insertObject->insertData();
+
 
 
     ?>
